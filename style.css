@@ -1,0 +1,39 @@
+body{
+   font-family: 'Secular One', sans-serif;
+   margin: 0;
+}
+.span-color{
+    color: orange;
+}
+h1{
+    font-size: 30px;
+}
+.section{
+    /* display: inline-block; */
+    /* display: flex;
+    display:block; */
+}
+.helf-width{
+    width: 40%;
+    float: left;
+    margin-left: 70px;
+    padding-left: 5px;
+}
+.helf-width img{
+    width:70%;
+
+
+}
+.helf-width a{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 32px ;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+.top-banner{
+    background-image: url(imags/top-banner.png);
+    background-repeat: no-repeat;
+}
