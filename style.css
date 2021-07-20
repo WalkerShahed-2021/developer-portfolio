@@ -37,13 +37,39 @@ h1{
 }
 .top-banner{
     background-image: url(imags/top-banner.png);
+    display: flex;
+    
+}
+.top-container{
+    display: inline-block;
+    display: inline-flex;
+    text-align: justify;
+}
+.main-h1{
+    margin: 50px;
+    padding: 20px;
+    background-image: url(imags/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+.box-shadow h6{
+    color: orange;
+}
+.box-shadow{
+    margin: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px #aaaaaa;
+    border-left: 5px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
     
     
 }
-
-.box-shadow{
-    width: 400px;
-    float: left;
-    box-shadow: 39px;
-
+.footer-title{
+    text-align: center;
+}
+#nd-color{
+    border-left: 5px solid ;
+    border-image: linear-gradient(red, blue) 27;
 }
